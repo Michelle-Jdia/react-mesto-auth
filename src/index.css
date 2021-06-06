@@ -17,6 +17,9 @@
 /* start header */
 @import url("./blocks/header/header.css");
 @import url("./blocks/header/__logo/header__logo.css");
+@import url("./blocks/header/__email/header__email.css");
+@import url("./blocks/header/__link-reg/header__link-reg.css");
+
 /* end header */
 
 /* start profile */
@@ -33,6 +36,15 @@
 
 /* end profile */
 
+/* start login-page */
+@import url("./blocks/login-page/login-page.css");
+@import url("./blocks/login-page/__form/login-page__form.css");
+@import url("./blocks/login-page/__title/login-page__title.css");
+@import url("./blocks/login-page/__link/login-page__link.css");
+@import url("./blocks/login-page/__inputs/login-page__inputs.css");
+@import url("./blocks/login-page/__button/login-page__button.css");
+
+/* enf login-page */
 /* start pictures */
 @import url("./blocks/pictures/pictures.css");
 /* end pictures */
@@ -64,6 +76,9 @@
 @import url("./blocks/popup/__input-error/popup__input-error.css");
 @import url("./blocks/popup/__input-error/_visible/popup__error_visible.css");
 @import url("./blocks/popup/__button_disabled/popup__button_disabled.css");
+@import url("./blocks/popup/__condition-image/popup__condition-image.css");
+@import url("./blocks/popup/__condition-text/popup__condition-text.css");
+@import url("./blocks/popup/__condition-container/popup__condition-container.css");
 /* end popup */
 /* start popup-creat */
 @import url("./blocks/popup-creat/popup-creat.css");
@@ -97,3 +112,4 @@
 @import url("./blocks/popup-remove/__form/popup-remove__form.css");
 @import url("./blocks/popup-remove/__container/popup-remove__container.css");
 @import url("./blocks/popup-remove/__button/popup-remove__button.css");
+
