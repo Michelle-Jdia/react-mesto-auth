@@ -33,6 +33,10 @@ function App() {
   const [email, setEmail] = React.useState("");
 
   React.useEffect(() => {
+    tokenCheck();
+  }, []);
+  
+  React.useEffect(() => {
     api
       .getInitialCards()
       .then((cardList) => {
