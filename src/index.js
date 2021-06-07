@@ -5,8 +5,8 @@ import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
-  <React.StrictMode basename="/react-mesto-auth">
-    <BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter basename="/react-mesto-auth">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
