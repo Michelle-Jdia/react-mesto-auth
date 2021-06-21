@@ -5,12 +5,12 @@ import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter basename="/react-mesto-auth">
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		<BrowserRouter basename="/react-mesto-auth">
+			<App />
+		</BrowserRouter>
+	</React.StrictMode>,
+	document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
